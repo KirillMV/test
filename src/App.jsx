@@ -1,9 +1,8 @@
 import React from "react";
-import Start from "./components/start/start";
+import AppRoutes from "./components/routes/routes";
+
 function App() {
-  return (
-<Start/>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
